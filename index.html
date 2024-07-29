@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>z1dd Percetakan</title>
+    <link rel="icon" href="8..png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Selamat Datang di Jasa Percetakan Kami</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="#services">Layanan</a></li>
+                <li><a href="#portfolio">Portofolio</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+        </nav>
+<div class="logo">
+            <img src="8...png" alt="Logo">
+        </div>
+        <h1>z1dd Percetakan</h1>
+        
+    </header>
+
+    <section id="home">
+        <h2>Mengubah Kata Menjadi Karya</h2>
+        <p>Selamat Datang di z1dd percetakan – Solusi Percetakan Anda yang Terpercaya!</p>
+        <p>Di Z1dd Percetakan, kami berkomitmen untuk memberikan hasil cetak berkualitas tinggi yang dapat memenuhi semua kebutuhan Anda. Dari brosur dan poster hingga buku dan kartu nama, kami menyediakan layanan percetakan yang cepat, efisien, dan terpercaya.</p>
+        <blockquote>
+            <p><b>"Percayakan setiap kata kepada kami, dan lihat bagaimana kami mencetaknya menjadi karya nyata."</b></p>
+        </blockquote>
+    </section>
+    <section id="services">
+        <h2>Layanan Kami</h2>
+        <ul>
+            <li>Cetak Brosur</li>
+            <li>Cetak Poster</li>
+            <li>Cetak Buku Nota</li>
+            <li>Cetak Kartu Nama</li>
+            <li>Cetak Spanduk</li>
+            <li>Cetak Undangan</li>
+        </ul>
+    </section>
+
+    <section id="portfolio">
+        <h2>Portofolio</h2>
+        <p>Lihat hasil karya kami yang terbaru.</p>
+        <div class="foto-container">
+        <img src="1..jpg" width="300" height="200">
+        <img src="2..jfif" width="300" height="200">
+        <img src="3..jpg" width="300" height="200">
+        <img src="4..jfif" width="300" height="200">
+        <img src="5..jpg" width="300" height="200">
+        <img src="6..jpg" width="300" height="200">
+        </div>
+    </section>
+
+    <main>
+        <section id="contact">
+            <h2>contact</h2>
+            <form id="printOrderForm">
+                <label for="customerName">Name:</label>
+                <input type="text" id="customerName" name="customerName" required>
+
+                <label for="printType">Apa Yang Ingin Di Buat:</label>
+                <select id="printType" name="printType" required>
+                    <option value="cetak brosur">cetak Brosur</option>
+                    <option value="cetak poster">Cetak Poster </option>
+                    <option value="cetak buku nota">Cetak Buku Nota</option>
+                    <option value="cetak kartu nama">Cetak Kartu Nama </option>
+                    <option value="cetak spanduk">Cetak Spanduk </option>
+                    <option value="cetak undangan">Cetak Undangan</option>
+                </select>
+
+                <label for="quantity">Jumlah:</label>
+                <input type="number" id="quantity" name="quantity" min="1" required>
+
+                <label for="additionalNotes">catatan tambahan:</label>
+                <textarea id="additionalNotes" name="Catatan Tambahan"></textarea>
+
+                <button type="submit">Submit Order</button>
+            </form>
+            <p id="orderMessage"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; z1dd percetakan</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
